@@ -33,4 +33,5 @@ Now let’s get our hands dirty!
 * [**Read and write on your NFC TAG**]()
 * [**Interaction Arduino-Node js**]()
 * [**Architecture of your project**]()
+* [**Configuration of yours files**]()
 * [**Tests and Chief suggestions**]()
