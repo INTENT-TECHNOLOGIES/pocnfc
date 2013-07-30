@@ -21,17 +21,19 @@ http://www.cooking-hacks.com/index.php/shop/raspberry-pi/rfid-13-56-mhz-shield-f
 I’ll leave the other ingredients at your discretion, you can find them everywhere.
 
 In order to succeed the dish, let’s take a look at these documents in order to learn about the open-source framework and the NFC technology:
+
 http://hubiquitus.com/ Look at examples and lessons to practice
 http://www.docstoc.com/docs/47769968/RFID--MIFARE-Data-Structure for Mirfare Tags/NFC
+
 You also need C++ knowledge because we use Arduino, Linux, NodeJs (javascript/coffeescript) and a little bit of computer networks. When you mix all of this knowledge you get your meal!
 
 Now let’s get our hands dirty!
 
 
 ###Directions
-* [**Embed your hubiquitus**]()
-* [**Read and write on your NFC TAG**]()
-* [**Interaction Arduino-Node js**]()
-* [**Architecture of your project**]()
-* [**Configuration of yours files**]()
-* [**Tests and Chief suggestions**]()
+* [**Embed your hubiquitus**](docs/Embedyourhubiquitus.md)
+* [**Read and write on your NFC TAG**](docs/Readwriteonmirfare.md)
+* [**Interaction Arduino-Node js**](docs/Integrate-nfc-hubiquitus.md)
+* [**Architecture of your project**](docs/Architecture.md)
+* [**Configuration of yours files**](docs/Configuration.md)
+* [**Tests and Chief suggestions**](docs/Testandsuggestions.md)

@@ -2,9 +2,9 @@
 Now it’s time to test and taste it!
 Launch yours topologies files and your C++ file. Just pass your Tag above the reader and you should have this kind of things on the screen: 
 
-##[**Raspberry Pi**]()
+##[**Raspberry Pi**](Image/Pitest.jpg)
 
-##[**Server**]()
+##[**Server**](Image/servertest.jpg)
 
 It works! 
 

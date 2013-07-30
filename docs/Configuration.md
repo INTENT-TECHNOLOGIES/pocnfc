@@ -2,7 +2,7 @@
 
 When you look at the architecture you can infer that there are 2 topology files, 2 actors and 3 adapters for the hubiquitus part. There is for the C++ part just one file which executes the NFC reader. Here is the name of each file; you can match it with the previous schema.
 
-[**File network**]()
+[**File network**](Image/fileslink.jpg)
 
 You have the detail of each file inside the project. The only things you have to do are adding some authorized Id and configure yours files:
 
