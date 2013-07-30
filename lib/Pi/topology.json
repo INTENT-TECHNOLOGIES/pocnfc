@@ -1,0 +1,14 @@
+{
+    "actor": "urn:localhost:myActor1",
+    "type": "myActor1",
+    "log":
+    {
+        "logLevel":"debug"
+    },
+    
+    "adapters": [ { "type": "filewatcherAdapter", "properties":{"path":"./log.json"},"serializer": "jsonpayload" }, {"type":"http_out","targetActorAid":"urn:localhost:myActor2", "url":"*", "port":"8090"}]
+
+
+}
+
+
