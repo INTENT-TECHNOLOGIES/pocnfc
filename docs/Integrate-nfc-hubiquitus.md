@@ -7,7 +7,7 @@ NodeJs (precisely mongodb) is most likely using JSON files for data exchange. So
 {“id”:”yourID”} in yourfile.JSON
 ```
 
-If you have this kind of file it’s now very easy to manipulate with JavaScript. To have “yourID” you just have to read and parse your file! Please take a look to the source code section we here use a serializer in order to read, parse your file and convert it in a hMessage. You also need to change some other things inside the code; I will also refer to exemple.cpp in the lib directory.
+If you have this kind of file it’s now very easy to manipulate with JavaScript. To have “yourID” you just have to read and parse your file! Please take a look to the source code section. We here use a serializer in order to read, parse your file and convert it in a hMessage. You also need to change some other things inside the code; I will also refer to pocnfc.cpp in the lib directory.
 
 Now, each time you will pass the TAG above the reader you will create a file which contains the data of the TAG.
 To manipulate the file, you have 2 functions in node js which are very useful to get this data and do whatever you want with this: watchFile and readFile. You can have the documentation on the nodeJS website:
