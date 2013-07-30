@@ -139,9 +139,9 @@ void loop()
 		fichier << "\"";
 		fichier << "}";
 		
-		remove("/home/pi/log.json");
+		
 		delay(1000);
-		rename("/home/pi/logg.json", "../Pi/test.json");
+		rename("/home/pi/logg.json", "../Pi/log.json");
 		
 	}
    delay(2000);
