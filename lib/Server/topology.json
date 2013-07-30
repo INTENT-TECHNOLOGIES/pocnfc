@@ -1,7 +1,7 @@
 {
             "actor": "urn:localhost:myActor2",
             "type": "myActor2",
-            "adapters": [ { "type": "http_in", "url":"192.168.2.4:8090"} ]
+            "adapters": [ { "type": "http_in", "url":"*:8090"} ]
             
 }
 
