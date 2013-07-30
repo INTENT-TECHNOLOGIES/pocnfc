@@ -18,3 +18,5 @@ So what we have to do is to watch the file and each time it is modified we read 
 If it’s a little bit confusing for you then take a look at the next part in order to understand the structure of the project.
 
 Concerning the server side you just have to install hubiquitus (here you can use the classic way).
+
+[**Previous**](Readwriteonmirfare.md)           [**Next**](Architecture.md)

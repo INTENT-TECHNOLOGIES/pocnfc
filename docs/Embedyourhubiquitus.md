@@ -28,8 +28,8 @@ It will install it in /opt/mongo (your choice). Then you should create an init.d
 $ sudo adduser --firstuid 100 --ingroup nogroup --shell /etc/false --disabled-password --gecos "" --no-create-home mongodb
 $ mkdir /var/log/mongodb/
 $ chown mongodb:nogroup /var/log/mongodb/
- <FONT COLOR="red" >$ mkdir /var/lib/mongodb </FONT>
- <FONT COLOR="red" >$ chown mongodb:nogroup /var/lib/mongodb </FONT>
+$ mkdir /var/lib/mongodb 
+$ chown mongodb:nogroup /var/lib/mongodb
 $ sudo cp debian/init.d /etc/init.d/mongod
 $ sudo cp debian/mongodb.conf /etc/	
 $ sudo ln -s /opt/mongo/bin/mongod /usr/bin/mongod
@@ -51,8 +51,16 @@ $ node launch.js
 And you should see on the screen « hubiquitus started » after 1minute (Yes a Pi is slow…)
 You have now installed a real time framework on your Pi and you can start communicating with the outside world! 
 Specifications:
-I just need to add some specifications. It happens sometimes if you did not shut down your raspberry or mongodb cleanly that you corrupted the /var/lib/mongodb folder. So you’ll have to rebuild it as explained above in red. To avoid this, i recommend out following these instructions every time you want to shut down your PI:
+I just need to add some specifications. It happens sometimes if you did not shut down your raspberry or mongodb cleanly that you corrupted the /var/lib/mongodb folder. So you’ll have to rebuild it:
+```
+$ rm -R /var/lib/mongodb 
+$ mkdir /var/lib/mongodb 
+$ chown mongodb:nogroup /var/lib/mongodb
+```
+
+To avoid this, i recommend out following these instructions every time you want to shut down your PI:
 ```
 $ sudo /etc/init.d/mongod stop
 $ sudo shutdown –h now
 ```
+[**Next**](Readwriteonmirfare.md)

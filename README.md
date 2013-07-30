@@ -17,7 +17,9 @@ I don’t need to remind you that the choice of ingredients is essential to make
 * A computer  to use as a Linux server 
 
 You can find the hardware part on this cooking-hacks website for about 130 euros:
+
 http://www.cooking-hacks.com/index.php/shop/raspberry-pi/rfid-13-56-mhz-shield-for-raspberry-pi.html
+
 I’ll leave the other ingredients at your discretion, you can find them everywhere.
 
 In order to succeed the dish, let’s take a look at these documents in order to learn about the open-source framework and the NFC technology:
@@ -37,3 +39,6 @@ Now let’s get our hands dirty!
 * [**Architecture of your project**](docs/Architecture.md)
 * [**Configuration of yours files**](docs/Configuration.md)
 * [**Tests and Chief suggestions**](docs/Testandsuggestions.md)
+
+The source code of this recipe is licensed under the terms of the GNU General Public License for the Arduino part and MIT license for the Hubiquitus code.
+

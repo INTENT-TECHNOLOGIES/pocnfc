@@ -6,7 +6,7 @@
         "logLevel":"debug"
     },
     
-    "adapters": [ { "type": "Filewatch", "properties":{"path":"./test.json"},"serializer": "jsonpayload" }, {"type":"http_out","targetActorAid":"urn:localhost:myActor2", "url":"192.168.2.4", "port":"8090"}]
+    "adapters": [ { "type": "filewatcherAdapter", "properties":{"path":"./test.json"},"serializer": "jsonpayload" }, {"type":"http_out","targetActorAid":"urn:localhost:myActor2", "url":"*", "port":"8090"}]
 
 
 }

@@ -2,9 +2,11 @@
 Now it’s time to test and taste it!
 Launch yours topologies files and your C++ file. Just pass your Tag above the reader and you should have this kind of things on the screen: 
 
-##[**Raspberry Pi**](Image/Pitest.jpg)
+##Raspberry Pi Side
+![**Raspberry Pi**](Image/Pitest.jpg)
 
-##[**Server**](Image/servertest.jpg)
+##Server 
+![**Server**](Image/servertest.jpg)
 
 It works! 
 
@@ -24,3 +26,4 @@ Every time you want to update the database of authorized ID on your Pi the serve
 
 ###The chief is open-minded with any suggestions! So do not hesitate if you want to add a ingredient or to improve the way to cook!
 
+[**Previous**](Configuration.md)           
