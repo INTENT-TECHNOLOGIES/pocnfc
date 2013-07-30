@@ -8,7 +8,9 @@ Launch yours topologies files and your C++ file. Just pass your Tag above the re
 ##Server 
 ![**Server**](Image/servertest.jpg)
 
-It works! 
+It works!
+
+![**Equipment**](Image/Equipment.jpg) 
 
 #Suggestions:
 
