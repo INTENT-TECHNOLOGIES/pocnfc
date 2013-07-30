@@ -31,6 +31,7 @@ Insert a command which will display the ID on the screen (onMessage section)
 
 ###On the raspberry pi side:
 Configure the suitable collection which contain the authorized IDs
-The last thing to do is to modify your Arduino file in order to build your JSON file. Please take a look at the lib directory (exemple.cpp). Be sure to write something on your tag before!
+The last thing to do is to modify your Arduino file in order to build your JSON file. Please take a look at the Arduino directory (pocnfc.cpp). 
+Be sure to write something on your tag before!
 
 [**Previous**](Architecture.md)           [**Next**](Testandsuggestions.md)
